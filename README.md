@@ -65,7 +65,8 @@ The tests cover parsing (including malformed files), each block type, laser trac
 | `board.py` | `Board` class (`.bff` parsing and validation) and `trace()` laser simulation |
 | `solver.py` | Laser-guided depth-first search |
 | `output.py` | Text and PNG solution writers |
-| `test_lazor.py` | Unit tests |
+| `test_board.py` | Unit tests for blocks, parsing and laser tracing |
+| `test_solver.py` | Unit tests for the solver and output files |
 | `boards/` | Benchmark `.bff` files |
 
 ## How it works
